@@ -24,7 +24,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:5173', // Local frontend
-      'https://sernitascare-frontend.netlify.app', // Netlify frontend
+      'https://sernitascare.netlify.app', // Netlify frontend
       'https://sernitas-care.com', // cPanel main domain
     ],
     methods: ['GET', 'POST', 'OPTIONS', 'DELETE', 'PATCH'], // Allow specific HTTP methods
